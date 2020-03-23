@@ -1,0 +1,1 @@
+ALTER TABLE `plan_endpoint` ADD UNIQUE KEY `UK_endpoint_plan___plan_endpoint` (`endpoint`, `plan_id`);

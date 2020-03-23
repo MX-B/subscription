@@ -1,0 +1,1 @@
+INSERT INTO `plan_modality` (`id`, `code`) VALUES (5, 'SANDBOX');

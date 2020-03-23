@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <logger name="springfox.documentation" level="OFF" />
+    <logger name="org.jboss" level="OFF" />
+    <logger name="sun.rmi" level="ERROR" />
+    <logger name="com.zaxxer.hikari" level="WARN" />
+    <logger name="sun.awt" level="WARN" />
+    <logger name="org.hibernate" level="WARN" />
+    <logger name="com.mchange" level="WARN" />
+    <logger name="org.springframework" level="WARN" />
+    <logger name="org.springframework.security" level="WARN" />
+    <logger name="org.springframework.ws.client.MessageTracing" level="TRACE" />
+    <logger name="org.springframework.web.servlet.mvc" level="INFO" />
+    <logger name="sun.awt.X11" level="WARN" />
+    <logger name="java.awt" level="WARN" />
+    <logger name="javax" level="WARN" />
+    <logger name="org.apache" level="WARN" />
+    <logger name="org.thymeleaf" level="ERROR" />
+    <logger name="org.eclipse" level="ERROR" />
+    <logger name="jndi" level="ERROR" />
+    <logger name="org.xnio" level="ERROR" />
+    <logger name="com.google.api.client.http" level="WARN" />
+    <logger name="io.opencensus" level="WARN" />
+    <logger name="io.grpc" level="WARN" />
+    <logger name="org.elasticsearch" level="WARN" />
+    <logger name="io.gr1d" level="INFO" />
+
+    <root>
+        <level value="INFO"/>
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>

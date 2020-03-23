@@ -1,0 +1,1 @@
+ALTER TABLE `api` ADD `external_id` varchar(128) NULL;

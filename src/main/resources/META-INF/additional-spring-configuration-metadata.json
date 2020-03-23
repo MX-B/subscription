@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "gr1d.portal.subscriptions.paging.defaultLimit",
+      "type": "java.lang.String",
+      "description": "The default number of items on a listing page"
+    },
+    {
+      "name": "gr1d.portal.subscriptions.paging.maxLimit",
+      "type": "java.lang.String",
+      "description": "The maximum number of items on a listing page"
+    }
+  ]
+}
